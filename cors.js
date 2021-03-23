@@ -10,7 +10,7 @@ var cors_proxy = require('cors-anywhere');
 // var host = getHost();
 var host = '0.0.0.0'
 var port = 8888;
-require('cors-anywhere', (cors_proxy) => {
+require(['cors-anywhere'], (cors_proxy) => {
     cors_proxy.createServer({
         originWhitelist: [], // Allow all origins
         // requireHeader: ['origin', 'x-requested-with'],
