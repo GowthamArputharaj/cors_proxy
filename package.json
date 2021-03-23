@@ -13,5 +13,8 @@
     "node"
   ],
   "author": "Gowtham",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors-anywhere": "^0.4.4"
+  }
 }
