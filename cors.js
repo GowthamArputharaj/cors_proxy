@@ -2,7 +2,7 @@
 // var host = process.env.HOST || '0.0.0.0';
 var host = 'https://gowthamarputharaj.github.io/cors_proxy/';
 // Listen on a specific port via the PORT environment variable
-var port = process.env.PORT || 8888;
+var port = 8888;
 
 var cors_proxy = require('cors-anywhere');
 cors_proxy.createServer({
